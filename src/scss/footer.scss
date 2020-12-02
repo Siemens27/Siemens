@@ -1,0 +1,51 @@
+.footer{
+  position: relative;
+  &-block{
+    width: 461px;
+    height: 271px;
+    background: #C70101;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    &__location{
+      padding-top: 51px;
+      color: #FFFFFF;
+      font-family: "Museo Sans Cyrl 300", sans-serif;
+      font-size: 20px;
+      margin-bottom: 36px;
+      text-align: center;
+    }
+    &__div{
+      margin-bottom: 37px;
+      text-align: center;
+      .footer-block__number{
+        color: #FFFFFF;
+        font-family: "Museo Sans Cyrl 700", sans-serif;
+        font-size: 20px;
+      }
+    }
+    &__images{
+      margin: 0 auto;
+      width: 212px;
+      display: flex;
+      justify-content: space-around;
+      .footer-block__image{
+        position: relative;
+        &:before{
+          height: 26px;
+          width: 26px;
+          content: '';
+          border: none;
+          border-radius: 50%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          z-index: 2;
+        }
+
+      }
+    }
+  }
+}

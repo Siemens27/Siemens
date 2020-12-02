@@ -1,0 +1,25 @@
+.slider{
+  padding: 108px 0 0 0;
+  &-container{
+    max-width: 750px;
+    margin: 0 auto;
+    .owl-nav{
+      .customPrev, .customNext{
+        width: 30px;
+        height: 50px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+      }
+      .customPrev{
+        left: -66px;
+        background: url("../image/slider/chevron-left-solid@1X.png") center/cover no-repeat;
+      }
+      .customNext{
+        right: -66px;
+        background: url("../image/slider/chevron-right-solid@1X.png") center/cover no-repeat;
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.home{
+  background: url("../image/home/background.png") center/cover no-repeat;
+  padding: 165px 0 93px;
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  &__title{
+    font-size: 42px;
+    font-family: 'Museo Sans Cyrl 700', sans-serif;
+    color: $colorWhite;
+    margin-bottom: 17px;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+  &__subtitle{
+    font-family: 'Museo Sans Cyrl 500', sans-serif;
+    font-size: 24px;
+    color: $colorWhite;
+    margin-bottom: 67px;
+    text-transform: uppercase;
+  }
+  &-list{
+    list-style-type: none;
+    display: flex;
+    max-width: 460px;
+    width: 100%;
+    padding: 0 18px;
+    justify-content: space-between;
+    text-align: center;
+    color: $colorWhite;
+    font-size: 14px;
+    font-family: 'Museo Sans Cyrl 500', sans-serif;
+    margin-bottom: 67px;
+    &__image{
+      margin-bottom: 20px;
+    }
+  }
+  .home__button{
+    background: #C70101;
+    width: 301px;
+    height: 51px;
+    border-radius: 5px;
+    border: none;
+    color: $colorWhite;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 18px;
+    outline: none;
+  }
+  .home-more{
+    color: $colorWhite;
+    &__link{
+      color: $colorWhite;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+  }
+}
